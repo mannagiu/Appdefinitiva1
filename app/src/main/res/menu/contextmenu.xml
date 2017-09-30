@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <item
+        android:title="Elimina"
+        android:id="@+id/delete"
+        android:icon="@mipmap/icdelete"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Rinomina"
+        android:id="@+id/rename"
+        android:visible="true"
+        app:showAsAction="never"
+
+      />
+
+
+</menu>

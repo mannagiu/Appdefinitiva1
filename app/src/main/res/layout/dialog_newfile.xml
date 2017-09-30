@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crea nuovo file"
+        android:textSize="25dp"
+        android:id="@+id/creafile"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nome file"
+        android:id="@+id/nomefile"
+        />
+
+</LinearLayout>

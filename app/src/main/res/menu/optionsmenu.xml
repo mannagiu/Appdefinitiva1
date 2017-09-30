@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/home"
+        />
+    <item
+        android:title="Torna alla cartella precedente"
+        android:id="@+id/prev"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/arrowup"/>
+
+
+    <item
+        android:title="Aggiungi cartella"
+        android:id="@+id/addfolder"/>
+    <item
+        android:title="Aggiungi file"
+        android:id="@+id/addfile"/>
+
+
+</menu>
